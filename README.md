@@ -2,7 +2,7 @@ Welcome to Jwt token in dot net core and dot net core mvc
 
 There have many token authentication but jwt beacuse jwt token store  in json file. suppose you use anothe token base authentication then you are phase one problem that is if you use load balanching server managment then you reques but this request is going to server1 and store the token . after that you sent the another request it going to server 2 but this server does not know your token so give the error. it use redis store base . so jwt use json file to store token thats why it does not face any problem 
 
-
+```
 Code :: For all 
 Step 1: Download "Microsoft.AspNetCore.Authentication.JwtBearer" Package 
 
@@ -111,3 +111,4 @@ step-1-2: Token Controller
             }
             return Unauthorized();
         }
+```
