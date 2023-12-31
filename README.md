@@ -79,6 +79,8 @@ step-7 ::  Add "[Authorize]"   which methode you want to authorize
 ----xxxxxxxxxxxxxxxx----------------------xxxxxxxxxxxxxxxx--------------xxxxxxx
 ==================== Extra code for MVC use ===================================
 More help : https://stackoverflow.com/questions/77467181/issue-with-using-jwt-for-authentication-in-asp-net-core-mvc
+Role Base Authentication :: https://ravindradevrani.medium.com/net-7-jwt-authentication-and-role-based-authorization-5e5e56979b67
+=========================================================================================================
 Step-1-1: Program.cs 
    =>       builder.Services.AddSession(options =>
           {
